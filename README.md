@@ -29,7 +29,9 @@ A single-feature linear model `y = w·x + b` fit by batch gradient descent on a 
 
 ### 2 · Multilayer perceptron (1 → 4 → 1)
 
-Disappointingly, it's clear that my abilities are insufficient to complete a full MLP model; strictly speaking, this is a half-finished product.
+Disappointingly, it's clear that my abilities are insufficient to complete a full MLP model; strictly speaking, this is a half-finished product. 
+(because scaling up (more layers, matrix-valued inputs) compounds the
+assembly complexity faster than my current skills can handle.)
 
 ```
         ┌── ReLU ──┐
